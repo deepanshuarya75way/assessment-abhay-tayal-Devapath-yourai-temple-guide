@@ -1,8 +1,8 @@
 import sqlite3
 import os
 import uuid
-DB_PATH = 
-MEDIA_DIR = 
+DB_PATH = "data\reviews.db"
+MEDIA_DIR = "data/reviews/media"
 
 def init_db():
   os.markedirs(MEDIA_DIR, exists_ok=True)
